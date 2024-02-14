@@ -1,0 +1,44 @@
+:root {
+    --bg-body: rgb(4, 20, 55);
+}
+
+
+.bg-body {
+    background-color: var(--bg-body);
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 30;
+    transition: background 0.3s ease-out;
+}
+
+
+/* Chrome Styles Scroll */
+/* Estilo para el scroll principal */
+::-webkit-scrollbar {
+    width: 9px;
+    /* Ancho del scroll */
+}
+/* Estilo para el track (fondo) del scroll */
+::-webkit-scrollbar-track {
+    background-color: rgb(16, 49, 121);
+    box-shadow: inset 0 0 10px rgba(0, 255, 255, 0.6); /* Ajusta los valores según tus preferencias */
+}
+/* Estilo para el handle (barra) del scroll */
+::-webkit-scrollbar-thumb {
+    background-color: #052338b7;
+    /* Color de la barra del scroll */
+    border-radius: 6px;
+    /* Bordes redondeados */
+}
+/* Estilo para el borde del handle (barra) del scroll */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #063b61b7;
+    /* Cambia el color al pasar el mouse sobre la barra del scroll */
+}
